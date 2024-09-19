@@ -1,7 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bienvenido a mi Repositorio | Welcome to my Repository</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .language-toggle {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
 <body>
-<h1> Hello World!</h1>
-<p>This site is being hosted by GitHub Pages!</p>
+    <header>
+        <h1>Bienvenido a mi Repositorio | Welcome to my Repository</h1>
+    </header>
+
+    <main>
+        <h2>Español</h2>
+        <p>
+            Hola, bienvenido a mi página de GitHub. Este repositorio contiene una colección de archivos y proyectos en los que he estado trabajando.
+            Si deseas explorar mis archivos o descargar algún proyecto, siéntete libre de revisar mi <a href="https://github.com/usuario/repositorio">repositorio en GitHub</a>.
+        </p>
+
+        <h2>English</h2>
+        <p>
+            Hello, welcome to my GitHub page. This repository contains a collection of files and projects I've been working on.
+            If you'd like to explore my files or download any project, feel free to check out my <a href="https://github.com/r-chamorro/currentProjects">GitHub repository</a>.
+        </p>
+
+        <div class="language-toggle">
+            <p>Elige tu idioma / Choose your language:</p>
+            <button onclick="document.location.href='#es'">Español</button>
+            <button onclick="document.location.href='#en'">English</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Mi Repositorio | My Repository</p>
+    </footer>
 </body>
 </html>
